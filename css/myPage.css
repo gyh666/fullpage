@@ -1,0 +1,498 @@
+.go {
+	position: fixed;
+	top: 5%;
+	right: 5%;
+	z-index: 999;
+}
+
+.next {
+	position: absolute;
+	right: 10%;
+	bottom: 100px;
+	z-index: 999
+}
+
+/* 第一屏幕制作 start */
+
+.section1 {
+	background: #fadd67 url(../images/t1fpyqfltdxxaiulhh-990-600.png) no-repeat center bottom;
+}
+
+.section1 .fly {
+	position: absolute;
+	top: 10%;
+	right: 20%;
+}
+
+.section1 .shirt {
+	position: absolute;
+	bottom: 335px;
+	left: 50%;
+	margin-left: -200px;
+}
+
+.section1 .goods {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 150px;
+}
+
+/* 第二屏幕制作 start */
+
+.section2 {
+	background: #84a2d4 url(../images/t1zdgpfi8exxca6rfn-2000-600.png) no-repeat center bottom;
+	z-index: 2;
+}
+
+.section2 .computer {
+	width: 990px;
+	height: 500px;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%);
+	/* background-color: rgba(0, 0, 0, .3); */
+}
+
+.section2 .search {
+	width: 222px;
+	height: 45px;
+	background: url(../images/search.png) no-repeat;
+	position: absolute;
+	bottom: 300px;
+	right: -30px;
+	display: none;
+}
+
+.section2 .search-words {
+	position: absolute;
+	top: 5px;
+	right: 32px;
+	opacity: 0;
+}
+
+.section2 .search-final {
+	position: absolute;
+	bottom: 300px;
+	right: 370px;
+	display: none;
+}
+
+.section2 .goods02 {
+	height: 100px;
+	display: none;
+	position: absolute;
+	right: 270px;
+	bottom: 217px;
+}
+
+.section2 .words01,
+.section2 .words02 {
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.section2 .words02 {
+	opacity: 0;
+}
+
+.section2 .shirt-move {
+	position: absolute;
+	bottom: 345px;
+	left: 395px;
+	width: 100px;
+	display: none;
+	z-index: 10;
+}
+
+.section2 .cover {
+	position: absolute;
+	bottom: 334px;
+	right: 495px;
+	width: 101px;
+	height: 90px;
+	z-index: 5;
+	background-color: #fff;
+	display: none;
+}
+
+/* 第三屏幕制作 start */
+
+.section3 {
+	background: #ef674d;
+	z-index: 1;
+}
+
+.section3 .main {
+	width: 700px;
+	height: 500px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 50px;
+	background: url(../images/main.png) center center;
+}
+
+.section3 .main .select {
+	width: 296px;
+	height: 250px;
+	/* background-color: #fadd67; */
+	position: absolute;
+	right: 8px;
+	bottom: 0;
+}
+
+.section3 .main .select .img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.section3 .main .select .img-a {
+	opacity: 0;
+}
+
+.section3 .main .select .btn {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.section3 .main .select .btn-a {
+	opacity: 0;
+}
+
+.section3 .main .shirt03 {
+	position: absolute;
+	left: 115px;
+	bottom: 200px;
+	display: none;
+}
+
+.section3 .main .t1f {
+	position: absolute;
+	left: 115px;
+	bottom: 200px;
+	display: none;
+}
+
+/* 第四屏幕制作 start */
+
+.section4 {
+	background: #fed url(../images/t1iresfnxaxxca6rfn-2000-600.png) no-repeat center bottom;
+}
+
+.section4 .cloud {
+	position: absolute;
+	left: 50%;
+	bottom: 550px;
+}
+
+.section4 .words04,
+.section4 .words04-a {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 500px;
+}
+
+.section4 .words04-a {
+	opacity: 0;
+}
+
+.section4 .car {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 50px;
+	z-index: 10;
+}
+
+.section4 .car .car-shirt {
+	position: absolute;
+	bottom: 200px;
+	left: 60%;
+	transform: translateX(-50%);
+	z-index: -1;
+	display: none;
+}
+
+.section4 .info {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 180px;
+	display: none;
+}
+
+.section4 .info .info-txt {
+	position: absolute;
+	top: 60px;
+	left: 50%;
+	transform: translateX(-50%);
+	filter: 0;
+}
+
+/* 第五屏幕制作 start */
+
+.section5 {
+	background: #d04759 url(../images/t1yisqfa4exxa3gmkg-2000-1500.png);
+	perspective: 600px;
+	-webkit-perspective: 600px;
+	z-index: 1;
+}
+
+.section5 .words05 {
+	position: absolute;
+	top: 10%;
+	left: 20%;
+	opacity: 0
+}
+
+.section5 .card05 {
+	position: absolute;
+	left: 20%;
+	bottom: 200px;
+	z-index: 10;
+}
+
+.section5 .order05 {
+	position: absolute;
+	left: 27%;
+	bottom: 270px;
+}
+
+.section5 .t1f05 {
+	position: absolute;
+	left: 25%;
+	bottom: 800px;
+	display: none;
+}
+
+.section5 .overflow {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+.section5 .overflow .hand {
+	position: absolute;
+	right: 28.5%;
+	bottom: -375px;
+}
+
+.section5 .overflow .mouse,
+.section5 .overflow .mouse-a {
+	position: absolute;
+	bottom: 200px;
+	right: 25%;
+}
+
+.section5 .overflow .mouse-a {
+	opacity: 0;
+}
+
+/* 第六屏幕制作 start */
+
+.section6 {
+	background: #84d9ed url(../images/t1dvj.fn0gxxb0_fua-2500-600.png) no-repeat 25% 100%;
+}
+
+.section6 .box {
+	position: absolute;
+	left: 123px;
+	bottom: 500px;
+	z-index: 50;
+}
+
+.section6 .car06 {
+	position: absolute;
+	bottom: 0;
+	right: 50%;
+	z-index: 60;
+}
+
+.section6 .cloud06 {
+	position: absolute;
+	top: 0;
+	left: 50%;
+}
+
+.section6 .address {
+	position: absolute;
+	bottom: 119px;
+	right: 48%;
+	z-index: 50;
+	display: none;
+}
+
+.section6 .man {
+	position: absolute;
+	bottom: 0;
+	right: 50%;
+	height: 100px;
+	display: none;
+}
+
+.section6 .women {
+	position: absolute;
+	right: 315px;
+	bottom: 116px;
+	height: 123px;
+	display: none;
+	z-index: 50;
+}
+
+.section6 .door {
+	position: absolute;
+	right: 285px;
+	bottom: 116px;
+	opacity: 0;
+}
+
+.section6 .take {
+	opacity: 0;
+	position: absolute;
+	right: 445px;
+	bottom: 400px;
+}
+
+.section6 .words06 {
+	position: absolute;
+	left: 10%;
+	bottom: 479px;
+	display: none;
+}
+
+/* 第七屏幕制作 start */
+
+.section7 {
+	background: #8ac060 url(../images/t1wf1tfctaxxa3gmkg-2000-1500.png) no-repeat 50% 100%;
+}
+
+.section7 .star {
+	width: 0;
+	height: 20px;
+	position: absolute;
+	bottom: 439px;
+	left: 50%;
+	margin-left: -295px;
+	background: url(../images/star.png) no-repeat;
+	background-size: 97px;
+}
+
+.section7 .good {
+	position: absolute;
+	bottom: 382px;
+	left: 50%;
+	margin-left: -289px;
+	display: none;
+}
+
+/* 第八屏幕制作 start */
+
+.section8 {
+	background: url(../images/ksgw.png);
+}
+
+.section8 .begin-shopping {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 365px;
+}
+
+.section8 .btn08-a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.section8 .again {
+	position: absolute;
+	bottom: 403px;
+	left: 50%;
+	margin-left: 240px;
+	cursor: pointer;
+}
+
+.section8 .hand08 {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+}
+
+/* 动画效果 */
+
+.next-animation {
+	animation: next 0.7s linear infinite;
+}
+
+.updown {
+	animation: fly 3s linear infinite;
+}
+
+.shirtUpdown {
+	animation: shirt 2.5s linear infinite;
+}
+
+.cloud-move01 {
+	animation: cloud01 60s linear infinite;
+}
+
+.word-animation {
+	animation: word 3s ease-in-out forwards;
+}
+
+@keyframes next {
+	50% {
+		bottom: 80px;
+	}
+	100% {
+		bottom: 100px;
+	}
+}
+
+@keyframes fly {
+	0% {
+		top: 10%;
+	}
+	50% {
+		top: 20%;
+	}
+	100% {
+		top: 10%;
+	}
+}
+
+@keyframes shirt {
+	0% {
+		bottom: 50%;
+	}
+	50% {
+		bottom: 55%;
+	}
+	100% {
+		bottom: 50%;
+	}
+}
+
+@keyframes cloud01 {
+	50% {
+		left: -10%;
+	}
+}
+
+@keyframes word {
+	100% {
+		opacity: 1;
+		transform: translateZ(100px) rotateY(360deg);
+	}
+}
